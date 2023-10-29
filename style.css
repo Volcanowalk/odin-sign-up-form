@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('./Norse-Bold.otf');
+}
+
+body {
+    display: flex;
+    margin: 0px;
+}
+
+.photo {
+    background-image: url(./image/billy-huynh-v9bnfMCyKbg-unsplash.jpg);
+    background-size: cover;
+    width: 40vw;
+    height: 100vh;
+}
+
+.container {
+    background-color: #EEEDED;
+    width: 60vw;
+    height: 100vh;
+}
+
+.label {
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    font-size: 2rem;
+    font-family: 'Norse Bold', Arial;
+}
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20vh;
+}
+
+.form-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #6983B8;
+}
+
+.form-container {
+    background-color: white;
+    height: 35vh;
+    box-shadow: 3px 9px 7px grey;
+    padding-top: 3vh;
+    padding-left: 5vw;
+    margin-top: 8vh;
+    width: 60vw;
+}
+
+.cell {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.cells {
+    margin-top: 3vh;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: #6983B8;
+}
+
+form input {
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1px;
+}
+
+form input:focus {
+    border-color: #6983B8;
+    outline: none;
+    box-shadow: 1px 2px 2px grey;
+}
+
+form input:invalid {
+    outline: none;
+    border-color: red;
+}
+
+#btnSubmit {
+    margin-top: 3vh;
+    margin-left: 5vw;
+    background-color: #6983B8;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    box-shadow: 1px 2px 3px grey;
+}
+
+.login {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-left: 5vw;
+}
+
+a {
+    color: #6983B8;
+    font-weight: 700;
+    text-decoration: none;
+}
